@@ -19,6 +19,10 @@
     font-family: var(--font-family);
 }
 
+html {
+    text-size-adjust: 100%; 
+}
+
 body {
     line-height: 1.4em;
 }
@@ -29,12 +33,6 @@ p {
 
 a {
     color: inherit;
-}
-
-.root {
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 1200px;
 }
 
 /* Blogs section */
